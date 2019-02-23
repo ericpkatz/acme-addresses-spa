@@ -1,0 +1,19 @@
+{
+  "name": "acme-addresses",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "start:dev": "DATABASE_URL=postgres://localhost/acme_addresses_db nodemon server.js --ignore assets/"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "pg": "^7.8.1",
+    "sequelize": "^4.42.0"
+  }
+}
